@@ -2,6 +2,10 @@
 Debloating project of sunmi os 3.5.0 for sunmi devices model v2 based on dafish7 repo that you can find here: <a href="https://github.com/dafish7/Sunmi-v2-Firmware-">dafish7</a>
 Thanks <3 
 
+## BACKUP ##
+BEFORE USING THIS GUIDE BE SURE TO MAKE A FULL BACKUP USING MTKCLIENT.
+
+
 ## INSTALLATION AND REQUISITES ##
 
 Requisite 1: MTKCLIENT
@@ -25,6 +29,8 @@ Requisite 2:
 2. Open mtkclient-gui.bat and let mtkclient to power up the GUI. <br>
 3. While device is completely powered off connect the usb cable while holding volume down. <br>
 4. MtkClient will automatically detect the device and will bring you to the main flash menu. <br>
+  4a. Before doing anything else from here backup your current rom form the "Read partition tab". <br>
+  4b. Check all partitions and click "Read". Select a folder and wait for the backup to finish. <br>
 5. Select the "Write partition" button. <br>
 6. Click on select from directory and select the previous downloaded "3.5.0" folder. <br>
 7. Check if every file is being actually detected and if so, click on the "Write" button. <br>
